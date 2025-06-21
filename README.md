@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Audio & Video Recorder App (React)
 
 A modern React web app to **record audio and video** directly from the browser, with **local preview**, **download**, and **localStorage history**
@@ -33,3 +34,7 @@ npm install
 npm start
 ```
 ````
+=======
+# audio-video-recorder
+audio-video-recorder-assignment
+>>>>>>> 56de776831b9a4e4a511f098e1be2c38ad209847
