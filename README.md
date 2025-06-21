@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Audio & Video Recorder App (React)
+# Audio & Video Recorder App
 
 A modern React web app to **record audio and video** directly from the browser, with **local preview**, **download**, and **localStorage history**
 
