@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1c1f26;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.navbar button {
+    background-color: #3c4043;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.navbar button:hover {
+    background-color: #5f6368;
+}
+
+.navbar .active {
+    background-color: #1a73e8;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1666c1;
+}
+
+audio,
+video {
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.error-popup {
+    margin-top: 20px;
+    background-color: #ff4d4f;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.error-popup p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.error-popup button {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #ff4d4f;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.recorder-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #2c2f36;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.recorder-box {
+    margin-bottom: 40px;
+}
+
+.audio-buttons {
+    margin-top: 10px;
+}
+
+.timer {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error-popup {
+    background: #ff4d4f;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.error-popup button {
+    margin-top: 8px;
+    background: #fff;
+    color: #ff4d4f;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.latest-playback {
+    margin-top: 20px;
+}
+
+.latest-playback button {
+    margin-top: 10px;
+}
+
+.saved-recordings-box {
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    min-width: 50%;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.saved-recordings-box h3 {
+    color: #1c1f26;
+    text-align: center;
+}
+
+.no-recordings {
+    color: #999;
+    font-style: italic;
+}
+
+.delete-all-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.recordings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.recording-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    color: #1c1f26;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recording-card audio {
+    width: 100%;
+}
+
+.download-button {
+    margin-top: 10px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.video-recorder-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #2c2f36;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.video-download-button {
+    display: flex;
+    gap: 10px;
+}
